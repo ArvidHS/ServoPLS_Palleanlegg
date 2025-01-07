@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V19" />
+  <SW.Blocks.FC ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+  <Section Name="Return">
+    <Member Name="Ret_Val" Datatype="Void" />
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>Posisjonering</Name>
+      <Namespace />
+      <Number>2</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="hent 8cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="22">
+      <Constant>
+        <ConstantValue>T#200ms</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Axis_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>224.5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="MC_MoveAbsolute_8cm_Hent" />
+        <Component Name="Done" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="Binær_hent_8cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="Hent_16cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="29">
+      <Constant>
+        <ConstantValue>T#200ms</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Axis_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>224.5</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="MC_MoveAbsolute_Hent_16CM" />
+        <Component Name="Done" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="Binær_Hent_16cm" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="35" />
+    <Part Name="TON" Version="1.0" UId="36">
+      <Instance Scope="GlobalVariable" UId="37">
+        <Component Name="ton 8cm enable move absolute" />
+      </Instance>
+      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
+    </Part>
+    <Part Name="MC_MoveAbsolute" Version="7.0" UId="38">
+      <Instance Scope="GlobalVariable" UId="39">
+        <Component Name="MC_MoveAbsolute_8cm_Hent" />
+      </Instance>
+    </Part>
+    <Part Name="Contact" UId="40" />
+    <Part Name="Coil" UId="41" />
+    <Part Name="Contact" UId="42" />
+    <Part Name="TON" Version="1.0" UId="43">
+      <Instance Scope="GlobalVariable" UId="44">
+        <Component Name="Timer_16cm_hent_200ms" />
+      </Instance>
+      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
+    </Part>
+    <Part Name="MC_MoveAbsolute" Version="7.0" UId="45">
+      <Instance Scope="GlobalVariable" UId="46">
+        <Component Name="MC_MoveAbsolute_Hent_16CM" />
+      </Instance>
+    </Part>
+    <Part Name="Contact" UId="47" />
+    <Part Name="Coil" UId="48" />
+  </Parts>
+  <Wires>
+    <Wire UId="65">
+      <Powerrail />
+      <NameCon UId="38" Name="en" />
+      <NameCon UId="35" Name="in" />
+      <NameCon UId="40" Name="in" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="42" Name="in" />
+      <NameCon UId="47" Name="in" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="operand" />
+    </Wire>
+    <Wire UId="67">
+      <NameCon UId="35" Name="out" />
+      <NameCon UId="36" Name="IN" />
+    </Wire>
+    <Wire UId="68">
+      <IdentCon UId="22" />
+      <NameCon UId="36" Name="PT" />
+    </Wire>
+    <Wire UId="69">
+      <NameCon UId="36" Name="Q" />
+      <NameCon UId="38" Name="Execute" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="36" Name="ET" />
+      <OpenCon UId="49" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="23" />
+      <NameCon UId="38" Name="Axis" />
+    </Wire>
+    <Wire UId="72">
+      <IdentCon UId="24" />
+      <NameCon UId="38" Name="Position" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="25" />
+      <NameCon UId="38" Name="Velocity" />
+    </Wire>
+    <Wire UId="74">
+      <OpenCon UId="50" />
+      <NameCon UId="38" Name="Direction" />
+    </Wire>
+    <Wire UId="75">
+      <NameCon UId="38" Name="Done" />
+      <OpenCon UId="51" />
+    </Wire>
+    <Wire UId="76">
+      <NameCon UId="38" Name="Busy" />
+      <OpenCon UId="52" />
+    </Wire>
+    <Wire UId="77">
+      <NameCon UId="38" Name="CommandAborted" />
+      <OpenCon UId="53" />
+    </Wire>
+    <Wire UId="78">
+      <NameCon UId="38" Name="Error" />
+      <OpenCon UId="54" />
+    </Wire>
+    <Wire UId="79">
+      <NameCon UId="38" Name="ErrorID" />
+      <OpenCon UId="55" />
+    </Wire>
+    <Wire UId="80">
+      <NameCon UId="38" Name="ErrorInfo" />
+      <OpenCon UId="56" />
+    </Wire>
+    <Wire UId="81">
+      <IdentCon UId="26" />
+      <NameCon UId="40" Name="operand" />
+    </Wire>
+    <Wire UId="82">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+    </Wire>
+    <Wire UId="83">
+      <IdentCon UId="27" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="84">
+      <IdentCon UId="28" />
+      <NameCon UId="42" Name="operand" />
+    </Wire>
+    <Wire UId="85">
+      <NameCon UId="42" Name="out" />
+      <NameCon UId="43" Name="IN" />
+    </Wire>
+    <Wire UId="86">
+      <IdentCon UId="29" />
+      <NameCon UId="43" Name="PT" />
+    </Wire>
+    <Wire UId="87">
+      <NameCon UId="43" Name="Q" />
+      <NameCon UId="45" Name="Execute" />
+    </Wire>
+    <Wire UId="88">
+      <NameCon UId="43" Name="ET" />
+      <OpenCon UId="57" />
+    </Wire>
+    <Wire UId="89">
+      <IdentCon UId="30" />
+      <NameCon UId="45" Name="Axis" />
+    </Wire>
+    <Wire UId="90">
+      <IdentCon UId="31" />
+      <NameCon UId="45" Name="Position" />
+    </Wire>
+    <Wire UId="91">
+      <IdentCon UId="32" />
+      <NameCon UId="45" Name="Velocity" />
+    </Wire>
+    <Wire UId="92">
+      <OpenCon UId="58" />
+      <NameCon UId="45" Name="Direction" />
+    </Wire>
+    <Wire UId="93">
+      <NameCon UId="45" Name="Done" />
+      <OpenCon UId="59" />
+    </Wire>
+    <Wire UId="94">
+      <NameCon UId="45" Name="Busy" />
+      <OpenCon UId="60" />
+    </Wire>
+    <Wire UId="95">
+      <NameCon UId="45" Name="CommandAborted" />
+      <OpenCon UId="61" />
+    </Wire>
+    <Wire UId="96">
+      <NameCon UId="45" Name="Error" />
+      <OpenCon UId="62" />
+    </Wire>
+    <Wire UId="97">
+      <NameCon UId="45" Name="ErrorID" />
+      <OpenCon UId="63" />
+    </Wire>
+    <Wire UId="98">
+      <NameCon UId="45" Name="ErrorInfo" />
+      <OpenCon UId="64" />
+    </Wire>
+    <Wire UId="99">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="operand" />
+    </Wire>
+    <Wire UId="100">
+      <NameCon UId="47" Name="out" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="101">
+      <IdentCon UId="34" />
+      <NameCon UId="48" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="lever_8cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="22">
+      <Constant>
+        <ConstantValue>T#200ms</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Axis_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="24">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>3082.7</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="25">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="MC_MoveAbsolute_DB" />
+        <Component Name="Done" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="binær _lever_8cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="Lever_16cm" />
+      </Symbol>
+    </Access>
+    <Access Scope="TypedConstant" UId="29">
+      <Constant>
+        <ConstantValue>T#200ms</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="Axis_1" />
+      </Symbol>
+    </Access>
+    <Access Scope="LiteralConstant" UId="31">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>1824.15</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="LiteralConstant" UId="32">
+      <Constant>
+        <ConstantType>Real</ConstantType>
+        <ConstantValue>100.0</ConstantValue>
+      </Constant>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="MC_MoveAbsolute_Lever_16cm" />
+        <Component Name="Done" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="binær_lever_16cm" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="35" />
+    <Part Name="TON" Version="1.0" UId="36">
+      <Instance Scope="GlobalVariable" UId="37">
+        <Component Name="timer_8cm_levering_delay_200ms" />
+      </Instance>
+      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
+    </Part>
+    <Part Name="MC_MoveAbsolute" Version="7.0" UId="38">
+      <Instance Scope="GlobalVariable" UId="39">
+        <Component Name="MC_MoveAbsolute_DB" />
+      </Instance>
+    </Part>
+    <Part Name="Contact" UId="40" />
+    <Part Name="Coil" UId="41" />
+    <Part Name="Contact" UId="42" />
+    <Part Name="TON" Version="1.0" UId="43">
+      <Instance Scope="GlobalVariable" UId="44">
+        <Component Name="timer_16cm_levering_delay_200ms" />
+      </Instance>
+      <TemplateValue Name="time_type" Type="Type">Time</TemplateValue>
+    </Part>
+    <Part Name="MC_MoveAbsolute" Version="7.0" UId="45">
+      <Instance Scope="GlobalVariable" UId="46">
+        <Component Name="MC_MoveAbsolute_Lever_16cm" />
+      </Instance>
+    </Part>
+    <Part Name="Contact" UId="47" />
+    <Part Name="Coil" UId="48" />
+  </Parts>
+  <Wires>
+    <Wire UId="65">
+      <Powerrail />
+      <NameCon UId="38" Name="en" />
+      <NameCon UId="35" Name="in" />
+      <NameCon UId="40" Name="in" />
+      <NameCon UId="45" Name="en" />
+      <NameCon UId="42" Name="in" />
+      <NameCon UId="47" Name="in" />
+    </Wire>
+    <Wire UId="66">
+      <IdentCon UId="21" />
+      <NameCon UId="35" Name="operand" />
+    </Wire>
+    <Wire UId="67">
+      <NameCon UId="35" Name="out" />
+      <NameCon UId="36" Name="IN" />
+    </Wire>
+    <Wire UId="68">
+      <IdentCon UId="22" />
+      <NameCon UId="36" Name="PT" />
+    </Wire>
+    <Wire UId="69">
+      <NameCon UId="36" Name="Q" />
+      <NameCon UId="38" Name="Execute" />
+    </Wire>
+    <Wire UId="70">
+      <NameCon UId="36" Name="ET" />
+      <OpenCon UId="49" />
+    </Wire>
+    <Wire UId="71">
+      <IdentCon UId="23" />
+      <NameCon UId="38" Name="Axis" />
+    </Wire>
+    <Wire UId="72">
+      <IdentCon UId="24" />
+      <NameCon UId="38" Name="Position" />
+    </Wire>
+    <Wire UId="73">
+      <IdentCon UId="25" />
+      <NameCon UId="38" Name="Velocity" />
+    </Wire>
+    <Wire UId="74">
+      <OpenCon UId="50" />
+      <NameCon UId="38" Name="Direction" />
+    </Wire>
+    <Wire UId="75">
+      <NameCon UId="38" Name="Done" />
+      <OpenCon UId="51" />
+    </Wire>
+    <Wire UId="76">
+      <NameCon UId="38" Name="Busy" />
+      <OpenCon UId="52" />
+    </Wire>
+    <Wire UId="77">
+      <NameCon UId="38" Name="CommandAborted" />
+      <OpenCon UId="53" />
+    </Wire>
+    <Wire UId="78">
+      <NameCon UId="38" Name="Error" />
+      <OpenCon UId="54" />
+    </Wire>
+    <Wire UId="79">
+      <NameCon UId="38" Name="ErrorID" />
+      <OpenCon UId="55" />
+    </Wire>
+    <Wire UId="80">
+      <NameCon UId="38" Name="ErrorInfo" />
+      <OpenCon UId="56" />
+    </Wire>
+    <Wire UId="81">
+      <IdentCon UId="26" />
+      <NameCon UId="40" Name="operand" />
+    </Wire>
+    <Wire UId="82">
+      <NameCon UId="40" Name="out" />
+      <NameCon UId="41" Name="in" />
+    </Wire>
+    <Wire UId="83">
+      <IdentCon UId="27" />
+      <NameCon UId="41" Name="operand" />
+    </Wire>
+    <Wire UId="84">
+      <IdentCon UId="28" />
+      <NameCon UId="42" Name="operand" />
+    </Wire>
+    <Wire UId="85">
+      <NameCon UId="42" Name="out" />
+      <NameCon UId="43" Name="IN" />
+    </Wire>
+    <Wire UId="86">
+      <IdentCon UId="29" />
+      <NameCon UId="43" Name="PT" />
+    </Wire>
+    <Wire UId="87">
+      <NameCon UId="43" Name="Q" />
+      <NameCon UId="45" Name="Execute" />
+    </Wire>
+    <Wire UId="88">
+      <NameCon UId="43" Name="ET" />
+      <OpenCon UId="57" />
+    </Wire>
+    <Wire UId="89">
+      <IdentCon UId="30" />
+      <NameCon UId="45" Name="Axis" />
+    </Wire>
+    <Wire UId="90">
+      <IdentCon UId="31" />
+      <NameCon UId="45" Name="Position" />
+    </Wire>
+    <Wire UId="91">
+      <IdentCon UId="32" />
+      <NameCon UId="45" Name="Velocity" />
+    </Wire>
+    <Wire UId="92">
+      <OpenCon UId="58" />
+      <NameCon UId="45" Name="Direction" />
+    </Wire>
+    <Wire UId="93">
+      <NameCon UId="45" Name="Done" />
+      <OpenCon UId="59" />
+    </Wire>
+    <Wire UId="94">
+      <NameCon UId="45" Name="Busy" />
+      <OpenCon UId="60" />
+    </Wire>
+    <Wire UId="95">
+      <NameCon UId="45" Name="CommandAborted" />
+      <OpenCon UId="61" />
+    </Wire>
+    <Wire UId="96">
+      <NameCon UId="45" Name="Error" />
+      <OpenCon UId="62" />
+    </Wire>
+    <Wire UId="97">
+      <NameCon UId="45" Name="ErrorID" />
+      <OpenCon UId="63" />
+    </Wire>
+    <Wire UId="98">
+      <NameCon UId="45" Name="ErrorInfo" />
+      <OpenCon UId="64" />
+    </Wire>
+    <Wire UId="99">
+      <IdentCon UId="33" />
+      <NameCon UId="47" Name="operand" />
+    </Wire>
+    <Wire UId="100">
+      <NameCon UId="47" Name="out" />
+      <NameCon UId="48" Name="in" />
+    </Wire>
+    <Wire UId="101">
+      <IdentCon UId="34" />
+      <NameCon UId="48" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="12" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="13" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FC>
+</Document>
