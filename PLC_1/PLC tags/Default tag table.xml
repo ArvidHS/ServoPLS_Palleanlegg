@@ -956,6 +956,101 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="97" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I0.0</LogicalAddress>
+          <Name>Hent_8cm_fra_main</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="98" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="99" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="9A" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I8.1</LogicalAddress>
+          <Name>Lever_8cm_fra_Main</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="9C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="9D" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1.1</LogicalAddress>
+          <Name>Servo_går</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="9E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="9F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A0" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q8.0</LogicalAddress>
+          <Name>Klar_for_pall_8cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A1" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A2" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A3" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q8.1</LogicalAddress>
+          <Name>nei</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
     </ObjectList>
   </SW.Tags.PlcTagTable>
 </Document>
