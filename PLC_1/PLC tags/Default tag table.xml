@@ -1051,6 +1051,348 @@
           </MultilingualText>
         </ObjectList>
       </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A6" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I1.2</LogicalAddress>
+          <Name>Servo_INP</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="A7" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M200.0</LogicalAddress>
+          <Name>Tag_6</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="AA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="AB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="AC" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M200.1</LogicalAddress>
+          <Name>Tag_7</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="AD" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="AE" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="AF" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M200.2</LogicalAddress>
+          <Name>Tag_9</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B0" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B1" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B2" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M200.3</LogicalAddress>
+          <Name>Tag_10</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B3" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B4" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B5" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M201.0</LogicalAddress>
+          <Name>Tag_11</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B6" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="B7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="B8" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M2.0</LogicalAddress>
+          <Name>C7_Retur_Set_8cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="BA" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="BB" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I0.4</LogicalAddress>
+          <Name>C7_min_pos</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="BC" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="BD" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="BE" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I0.5</LogicalAddress>
+          <Name>c7_pluss_pos</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="BF" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C0" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C1" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q2.4</LogicalAddress>
+          <Name>Bekreftet_levering_8cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C2" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C3" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C4" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q8.4</LogicalAddress>
+          <Name>Bekreftet_levering_8cm_NYY</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C5" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C6" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="C7" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q8.2</LogicalAddress>
+          <Name>Klar_for_pall_16cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="C8" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C9" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="CA" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I8.2</LogicalAddress>
+          <Name>Tag_12</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="CB" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="CC" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="CD" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I8.3</LogicalAddress>
+          <Name>Lever_16cm_fra_main</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="CE" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="CF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D0" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M3.0</LogicalAddress>
+          <Name>C7_retur_set_16cm</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="D1" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D2" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D3" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%Q8.6</LogicalAddress>
+          <Name>Bekreftet_levering_16cm_NYY</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="D4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D6" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I0.2</LogicalAddress>
+          <Name>Hent_16cm_fra_main</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="D7" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="D8" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="D9" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M210.0</LogicalAddress>
+          <Name>Sett_leveringsposisjon_Horizont_Unngå_Hylle</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="DA" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="DB" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
     </ObjectList>
   </SW.Tags.PlcTagTable>
 </Document>
