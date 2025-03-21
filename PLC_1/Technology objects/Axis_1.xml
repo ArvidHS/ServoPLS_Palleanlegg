@@ -82,6 +82,9 @@
           <Member Name="Type" Datatype="DInt">
             <StartValue>1</StartValue>
           </Member>
+          <Member Name="InverseDirection" Datatype="Bool">
+            <StartValue>FALSE</StartValue>
+          </Member>
           <Member Name="DataAdaption" Datatype="DInt">
             <StartValue>1</StartValue>
           </Member>
@@ -139,6 +142,11 @@
       </AttributeList>
       <Sections>
         <Section Name="None">
+          <Member Name="MountingMode" Datatype="DInt">
+            <Subelement Path="1">
+              <StartValue>0</StartValue>
+            </Subelement>
+          </Member>
           <Member Name="DataAdaption" Datatype="DInt">
             <Subelement Path="1">
               <StartValue>1</StartValue>
