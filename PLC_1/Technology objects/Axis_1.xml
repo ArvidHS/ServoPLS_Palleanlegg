@@ -82,9 +82,6 @@
           <Member Name="Type" Datatype="DInt">
             <StartValue>1</StartValue>
           </Member>
-          <Member Name="InverseDirection" Datatype="Bool">
-            <StartValue>FALSE</StartValue>
-          </Member>
           <Member Name="DataAdaption" Datatype="DInt">
             <StartValue>1</StartValue>
           </Member>
@@ -142,11 +139,6 @@
       </AttributeList>
       <Sections>
         <Section Name="None">
-          <Member Name="MountingMode" Datatype="DInt">
-            <Subelement Path="1">
-              <StartValue>0</StartValue>
-            </Subelement>
-          </Member>
           <Member Name="DataAdaption" Datatype="DInt">
             <Subelement Path="1">
               <StartValue>1</StartValue>
@@ -420,11 +412,7 @@
       <ParameterData><Parameters>
   <Parameter Name="_Sensor[1].ActiveHoming.DigitalInput" Value="Axis_1_Homing switch" />
   <Parameter Name="_Sensor[1].DataAdaptionOffline" Value="True" />
-  <Parameter Name="_Sensor[1].Interface.ProfiDriveOutName" Value="Axis_1_Drive_OUT" />
-  <Parameter Name="_Sensor[1].Interface.ProfiDriveInName" Value="Axis_1_Drive_IN" />
   <Parameter Name="_Actor.DataAdaptionOffline" Value="True" />
-  <Parameter Name="_Actor.Interface.ProfiDriveOutName" Value="Axis_1_Drive_OUT" />
-  <Parameter Name="_Actor.Interface.ProfiDriveInName" Value="Axis_1_Drive_IN" />
   <Parameter Name="_Sensor[1].Interface.EncoderConnection" Value="7" />
 </Parameters></ParameterData>
       <ProgrammingLanguage>Motion_DB</ProgrammingLanguage>

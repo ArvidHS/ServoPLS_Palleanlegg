@@ -313,7 +313,7 @@
       <SW.Tags.PlcTag ID="31" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Byte</DataTypeName>
-          <LogicalAddress>%MB8001</LogicalAddress>
+          <LogicalAddress>%MB7000</LogicalAddress>
           <Name>System_Byte</Name>
         </AttributeList>
         <ObjectList>
@@ -351,7 +351,7 @@
       <SW.Tags.PlcTag ID="37" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M8001.1</LogicalAddress>
+          <LogicalAddress>%M7000.1</LogicalAddress>
           <Name>DiagStatusUpdate</Name>
         </AttributeList>
         <ObjectList>
@@ -370,7 +370,7 @@
       <SW.Tags.PlcTag ID="3A" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M8001.2</LogicalAddress>
+          <LogicalAddress>%M7000.2</LogicalAddress>
           <Name>AlwaysTRUE</Name>
         </AttributeList>
         <ObjectList>
@@ -389,7 +389,7 @@
       <SW.Tags.PlcTag ID="3D" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%M8001.3</LogicalAddress>
+          <LogicalAddress>%M7000.3</LogicalAddress>
           <Name>AlwaysFALSE</Name>
         </AttributeList>
         <ObjectList>
@@ -1612,6 +1612,120 @@
           <MultilingualText ID="FE" CompositionName="Comment">
             <ObjectList>
               <MultilingualTextItem ID="FF" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="100" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M8001.0</LogicalAddress>
+          <Name>First_Scan</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="101" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="102" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="103" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Byte</DataTypeName>
+          <LogicalAddress>%MB8001</LogicalAddress>
+          <Name>System_Byte(1)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="104" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="105" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="106" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M8001.0</LogicalAddress>
+          <Name>FirstScan(2)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="107" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="108" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="109" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M7000.0</LogicalAddress>
+          <Name>First_Scan(1)</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="10A" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10B" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="10C" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M6000.0</LogicalAddress>
+          <Name>Tag_14</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="10D" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="10E" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="10F" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%I8.4</LogicalAddress>
+          <Name>Start_signal_fra_mainpls</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="110" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="111" CompositionName="Items">
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
